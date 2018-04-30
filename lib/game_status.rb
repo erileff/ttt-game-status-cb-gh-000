@@ -34,3 +34,9 @@ end
 def over?(board)
   draw?(board) || won?(board)
 end
+
+def winner(board)
+  if combo = won?(board)
+    board[combo.first]
+  end
+end
