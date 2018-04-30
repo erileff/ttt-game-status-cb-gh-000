@@ -12,8 +12,10 @@ WIN_COMBINATIONS = [
   [1,4,7], #center column
   [2,5,8], #right column
   [0,4,8], #diagonal
-  [2,4,6], #diagonal
+  [6,4,2], #diagonal
 ]
 
 def won?(board)
+WIN_COMBINATIONS.detect do |combo|
+  combo.
 end
